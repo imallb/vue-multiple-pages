@@ -1,0 +1,137 @@
+﻿
+/**
+ * view list:
+ *  320x480
+ *  320x568
+ *  320x570
+ *  360x592
+ *  360x598
+ *  360x604
+ *  360x640
+ *  360x720
+ *  375x667
+ *  375x812
+ *  393x699
+ *  412x732
+ *  414x736
+ *  480x854
+ *  540x960
+ *  640x360
+ *  720x1184
+ *  720x1280
+ *  800x600
+ *  1024x768
+ *  1080x1812
+ *  1080x1920
+ */
+@media screen and (max-width: 768px) {
+  html { font-size: 102.4px; }
+}
+@media screen and (max-width: 720px) {
+  html { font-size: 96px; }
+}
+@media screen and (max-width: 640px) {
+  html { font-size: 85.33px; }
+}
+@media screen and (max-width: 540px) {
+  html { font-size: 72px; }
+}
+@media screen and (max-width: 480px) {
+  html { font-size: 64px; }
+}
+@media screen and (max-width: 414px) {
+  html { font-size: 55.2px; }
+}
+@media screen and (max-width: 412px) {
+  html { font-size: 54.93px; }
+}
+@media screen and (max-width: 393px) {
+  html { font-size: 52.4px; }
+}
+@media screen and (max-width: 375px) {
+  html { font-size: 50px; }
+}
+@media screen and (max-width: 360px) {
+  html { font-size: 48px; }
+}
+@media screen and (max-width: 768px) {
+  html { font-size: 13.33333333vw; }
+}
+@media screen and (max-width: 320px) {
+  html { font-size: 42.667px; }
+}
+@media screen and (min-width: 769px) {
+  html { font-size: 102.4px; }
+}
+// @media screen and (orientation: landscape) and (max-height: 768px) {
+//   html { font-size: 13.33333333vh; }
+// }
+
+/* ========== ========== */
+html, body{
+  height: 100%;
+}
+body,
+h1, h2, h3, h4, h5, h6,
+dl, dd,
+p{
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6,
+strong,
+b{
+  font-weight: normal;
+}
+ol,
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+i,
+em{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  color: #666;
+  -webkit-tap-highlight-color: transparent;
+}
+/* table */
+table{ 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+th,td{ 
+  padding: 0; 
+}
+/*
+* 图片样式
+*/
+img
+{
+  width: 100%;
+  display: inline-block;
+  border: none;
+}
+/* 去除苹果手机按钮默认样式 */
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button
+{
+  appearance: none;
+  -webkit-appearance: none;
+}
+/*
+* 表单样式
+*/
+input,
+textarea,
+select
+{
+  border: 1px solid #ccc;
+  background: white;
+  outline: 0;
+  border-radius: 2px;
+}

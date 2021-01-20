@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+    color:white;
+    background: linear-gradient(-30deg, #141e30, #243b55);
+}
+img{
+    object-fit: cover;
+}
+.swipe{
+    overflow:hidden;
+    height: 3.2rem;
+    margin-bottom: 0.5rem;
+}
+.mint-swipe-indicator{
+    background:white;
+    opacity: 0.4;
+}
+.mint-swipe-indicator.is-active{
+    opacity: 1;
+}
+.list-box{
+    margin: 0 0.3rem;
+    overflow:hidden;
+}
+.list-box .list-title{
+    font-size: 0.34rem;
+    margin-bottom: 0.3rem;
+}
+.list-box .list-main{
+    width: calc(100% + 0.1rem);
+    overflow:hidden;
+}
+.list-box .list-main .item{
+    float:left;
+    width:calc(20% - 0.1rem);
+    font-size: 0.24rem;
+    text-align: center;
+    margin: 0 0.1rem 0.3rem 0;
+}
+.list-box .list-main .item span{
+    display: block;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 0.08rem;
+    margin: 0 auto 0.15rem;
+}
+.list-box .list-main .item p{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
